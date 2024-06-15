@@ -1,0 +1,15 @@
+Y:\Customer Detail\ElectroSea\170055 Clearline Circuit Design\Software and Firmware\Manufacturing\MFGR Helper\MFGR Helper\bin\Release\MFGR Helper.exe.config
+Y:\Customer Detail\ElectroSea\170055 Clearline Circuit Design\Software and Firmware\Manufacturing\MFGR Helper\MFGR Helper\bin\Release\MFGR Helper.exe
+Y:\Customer Detail\ElectroSea\170055 Clearline Circuit Design\Software and Firmware\Manufacturing\MFGR Helper\MFGR Helper\bin\Release\MFGR Helper.pdb
+Y:\Customer Detail\ElectroSea\170055 Clearline Circuit Design\Software and Firmware\Manufacturing\MFGR Helper\MFGR Helper\bin\Release\MFGR Helper.xml
+Y:\Customer Detail\ElectroSea\170055 Clearline Circuit Design\Software and Firmware\Manufacturing\MFGR Helper\MFGR Helper\obj\Release\MFGR_Helper.AdminMenu.resources
+Y:\Customer Detail\ElectroSea\170055 Clearline Circuit Design\Software and Firmware\Manufacturing\MFGR Helper\MFGR Helper\obj\Release\MFGR_Helper.AdminPass.resources
+Y:\Customer Detail\ElectroSea\170055 Clearline Circuit Design\Software and Firmware\Manufacturing\MFGR Helper\MFGR Helper\obj\Release\MFGR_Helper.HexConverter.resources
+Y:\Customer Detail\ElectroSea\170055 Clearline Circuit Design\Software and Firmware\Manufacturing\MFGR Helper\MFGR Helper\obj\Release\MFGR_Helper.MFGR_Helper.resources
+Y:\Customer Detail\ElectroSea\170055 Clearline Circuit Design\Software and Firmware\Manufacturing\MFGR Helper\MFGR Helper\obj\Release\MFGR_Helper.Resources.resources
+Y:\Customer Detail\ElectroSea\170055 Clearline Circuit Design\Software and Firmware\Manufacturing\MFGR Helper\MFGR Helper\obj\Release\MFGR Helper.vbproj.GenerateResource.cache
+Y:\Customer Detail\ElectroSea\170055 Clearline Circuit Design\Software and Firmware\Manufacturing\MFGR Helper\MFGR Helper\obj\Release\MFGR Helper.vbproj.CoreCompileInputs.cache
+Y:\Customer Detail\ElectroSea\170055 Clearline Circuit Design\Software and Firmware\Manufacturing\MFGR Helper\MFGR Helper\obj\Release\MFGR Helper.exe
+Y:\Customer Detail\ElectroSea\170055 Clearline Circuit Design\Software and Firmware\Manufacturing\MFGR Helper\MFGR Helper\obj\Release\MFGR Helper.xml
+Y:\Customer Detail\ElectroSea\170055 Clearline Circuit Design\Software and Firmware\Manufacturing\MFGR Helper\MFGR Helper\obj\Release\MFGR Helper.pdb
+Y:\Customer Detail\ElectroSea\170055 Clearline Circuit Design\Software and Firmware\Manufacturing\MFGR Helper\MFGR Helper\obj\Release\MFGR Helper.vbprojAssemblyReference.cache

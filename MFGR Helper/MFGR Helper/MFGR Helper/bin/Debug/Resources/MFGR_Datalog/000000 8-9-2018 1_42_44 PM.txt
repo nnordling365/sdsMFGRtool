@@ -1,0 +1,28 @@
+Serial__Number_: 000000
+Date__and__Time: 8/9/2018 1:42:44 PM
+FactoryPassword: UUUUUU
+Version__Number: 1.0
+Output__Level__: 10
+Input__GPM_____: 5
+Pump__Mode_____: 1
+Pump__Time_____: 0
+Cell__Delay__1_: 30
+Forward_On__Sec: 120
+Reverse_On__Sec: 120
+Contrast_______: 60
+Backlight______: 100
+GPM__Override__: 0
+Forward_Off_Sec: 25
+Reverse_Off_Sec: 25
+Deadtime__Sec__: 5
+
+Program Failed!
+[Error Info] A write error occurred:
+-The device may have been turned off during programming or there may be an error in the code file.
+-Make sure connection is not interrupted while underway.
+-Check that the device is on, reset, and try again.
+
+Raw Error Data:
+[ERROR] An error occurred executing a command (program): File does not exist: Y:\Customer Detail\ElectroSea\170055 Clearline Circuit Design\Software and Firmware\Manufacturing\MFGR Helper\MFGR Helper\bin\Release\Resources\MFGR_Files\ElectroSeaSAMD21E.hex
+Firmware check OK
+Chiperase completed successfully

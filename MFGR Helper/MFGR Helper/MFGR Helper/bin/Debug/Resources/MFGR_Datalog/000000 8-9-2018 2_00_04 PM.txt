@@ -1,0 +1,33 @@
+Serial__Number_: 000000
+Date__and__Time: 8/9/2018 2:00:04 PM
+FactoryPassword: UUUUUU
+Version__Number: 1.0
+Output__Level__: 10
+Input__GPM_____: 5
+Pump__Mode_____: 1
+Pump__Time_____: 0
+Cell__Delay__1_: 30
+Forward_On__Sec: 120
+Reverse_On__Sec: 120
+Contrast_______: 60
+Backlight______: 100
+GPM__Override__: 0
+Forward_Off_Sec: 25
+Reverse_Off_Sec: 25
+Deadtime__Sec__: 5
+
+Program Failed!
+[Error Info] A chip erase error occurred:
+-The device may not be powered on or it may have not been reset properly.
+-Make sure you have the correct arguments for the device inputted.
+-Check that the device is on, reset, and try again.
+
+Raw Error Data:
+[ERROR] An unexpected error occurred when executing.
+Traceback (most recent call last):
+  File "atmel\atprogram.py", line 48, in run
+  File "atmel\avr\cli\commandline.py", line 54, in execute_commands
+  File "atmel\avr\cli\commandexecutor.py", line 53, in execute_commands
+  File "atmel\avr\cli\commands\ChipEraseCommand.py", line 102, in execute
+ValueError: Erase failed. Make sure that you specify the correct arguments for your device.
+Firmware check OK

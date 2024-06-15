@@ -1,0 +1,3 @@
+cd "C:\Program Files (x86)\Atmel\Studio\7.0\atbackend"
+c:
+atprogram -t atmelice -i SWD -d atsamd21e18a chiperase program -f "Y:\Customer Detail\ElectroSea\170055 Clearline Circuit Design\Software and Firmware\Manufacturing\MFGR Helper\MFGR Helper\bin\Release\Resources\MFGR_Files\Input.hex" verify -f "Y:\Customer Detail\ElectroSea\170055 Clearline Circuit Design\Software and Firmware\Manufacturing\MFGR Helper\MFGR Helper\bin\Release\Resources\MFGR_Files\Input.hex" > "Y:\Customer Detail\ElectroSea\170055 Clearline Circuit Design\Software and Firmware\Manufacturing\MFGR Helper\MFGR Helper\bin\Release\Resources\MFGR_CLI\atmelOutput.txt" 2>&1

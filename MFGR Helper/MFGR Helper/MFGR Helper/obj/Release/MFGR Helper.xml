@@ -1,0 +1,327 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MFGR Helper
+</name>
+</assembly>
+<members>
+<member name="T:MFGR_Helper.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:MFGR_Helper.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:MFGR_Helper.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:MFGR_Helper.AdminMenu.Menu_Closed(System.Object,System.EventArgs)">
+ <summary>
+ When Closed, show the main form again.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MFGR_Helper.AdminMenu.Menu_Load">
+ <summary>
+ Calls AdminLoad function.
+ </summary>
+</member>
+<member name="M:MFGR_Helper.AdminMenu.AdminLoad">
+ <summary>
+ Reads from adminSettings ini file, initializing fields and setting default variables.
+ If the file does not exist it is created with default values.
+ <para>Locations are loaded whether or not the files that should be there exist in that location yet.</para>
+ </summary>
+</member>
+<member name="M:MFGR_Helper.AdminMenu.ShowMain">
+ <summary>
+ Hides Admin Menu and shows main form.
+ </summary>
+</member>
+<member name="M:MFGR_Helper.AdminMenu.BtnBrowseToDatabase_Click(System.Object,System.EventArgs)">
+ <summary>
+ Browses to a file directory which is used as the new location for the hex and data log files.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MFGR_Helper.AdminMenu.BtnBrowseToFileDirectory_Click(System.Windows.Forms.TextBox)">
+ <summary>
+ Browses to a file directory and stores that location in a textbox
+ </summary>
+ <param name="txt">textbox used to store file directory</param>
+</member>
+<member name="M:MFGR_Helper.AdminMenu.BtnHexFileBrowse_Click(System.Object,System.EventArgs)">
+ <summary>
+ Browse to hex file used for the CLI functions.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MFGR_Helper.AdminMenu.BtnBrowseToFileLocation_Click(System.Windows.Forms.TextBox,System.Windows.Forms.TextBox,System.String)">
+ <summary>
+ Browses to a file and stores that file's path in a textbox
+ </summary>
+ <param name="txt">textbox used to store file location</param>
+ <param name="origName">Name of the previous file used, is taken out of the path for the initial directory</param>
+ <param name="origExtension">the file extension which is used for handling the file to be displayed without</param>
+</member>
+<member name="M:MFGR_Helper.AdminMenu.MnuOpenHexPage_Click(System.Object,System.EventArgs)">
+ <summary>
+ Opens the hex file page and closes the other forms, may be temporary.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MFGR_Helper.AdminMenu.MnuSaveReturn_Click(System.Object,System.EventArgs)">
+ <summary>
+ Copies all data in the textboxes to the default variables, and writes over the adminSettings ini file.
+ If the ini file does not exist, it will be created.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MFGR_Helper.AdminMenu.MnuReturnNoSave_Click(System.Object,System.EventArgs)">
+ <summary>
+ Sets textboxes back to default variables and return to the main form.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MFGR_Helper.MFGR_Helper.PrevInstance">
+ <summary>
+ Returns whether or not there is a previous instance of the program running
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:MFGR_Helper.MFGR_Helper.HexConverter_Load(System.Object,System.EventArgs)">
+ <summary>
+ Occurs when main screen loads, calls initialization and load functions to set up all the fields in the program.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MFGR_Helper.MFGR_Helper.LoadAll(System.Int32)">
+ <summary>
+ Loads all fields(specified) in the program: Ini directory, Admin Menu Fields, User Fields, the Hex File, and images.
+ </summary>
+</member>
+<member name="M:MFGR_Helper.MFGR_Helper.InitFields">
+ <summary>
+ Initialize arrays of textboxes For group usage.
+ </summary>
+</member>
+<member name="M:MFGR_Helper.MFGR_Helper.Loadfile">
+ <summary>
+Loads the Hex file from location into HexFile Page
+ </summary>
+</member>
+<member name="M:MFGR_Helper.MFGR_Helper.ReceiveSerialData(System.String)">
+ <summary>
+ Receives any strings read in from the serial port, outputs them to a textbox, and writes to the userfield ini.
+ </summary>
+ <param name="msg">the message sent from the serial port</param>
+</member>
+<member name="M:MFGR_Helper.MFGR_Helper.ScannerPort_DataReceived(System.Object,System.IO.Ports.SerialDataReceivedEventArgs)">
+ <summary>
+ Reads serial port data and discards upon completion.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MFGR_Helper.MFGR_Helper.SaveSettings_Click(System.Object,System.EventArgs)">
+ <summary>
+ Saves user fields to ini file.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MFGR_Helper.MFGR_Helper.UserInitLoad">
+ <summary>
+ Loads User fields from ini file; 
+ If the file does not exist it will be created.
+ </summary>
+</member>
+<member name="M:MFGR_Helper.MFGR_Helper.UserFieldHandler(System.Windows.Forms.TextBox)">
+ <summary>
+ Whenever a User field textbox is changed,
+ it will be checked to make sure what was typed is a number and results in a number that does not exceed the maximum.
+ </summary>
+ <param name="textbox1"></param>
+</member>
+<member name="M:MFGR_Helper.MFGR_Helper.GenerateLogFile">
+ <summary>
+ Creates a log file that holds info about the serial number, date and time, factory password, version number, and all of the user fields.
+ It also creates the directory for its location.
+ </summary>
+</member>
+<member name="M:MFGR_Helper.MFGR_Helper.GenerateHexFile">
+ <summary>
+ Generates a PsocData hex file based on the text fields in the HexFile page. 
+ <para>If it already exists, the file will be overwritten.</para>
+ <para>This function also creates the directory for the file location should it not exist yet. </para>
+ </summary>
+</member>
+<member name="M:MFGR_Helper.MFGR_Helper.GeneratePsocData">
+ <summary>
+ Takes User Field data from the main form, turns it into hex data that is concatenated and made into a .udata file for psoc_cli usage.
+ <para>The concatenation is "55AA" + 3 bytes serial code + 4 bytes password + 3 single, 2 double, 2 single, 4 double, and 3 single bytes of the userFields.</para>
+ </summary>
+</member>
+<member name="M:MFGR_Helper.MFGR_Helper.FactoryPassGen">
+ <summary>
+ Generates a factory password based off the current serial code
+ </summary>
+</member>
+<member name="M:MFGR_Helper.MFGR_Helper.BtnProgram_Click(System.Object,System.EventArgs)">
+ <summary>
+ Calls all of the core functions for programming: Generates Psoc Data, calls CLI for Psoc and Atmel, and generates a log file.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MFGR_Helper.MFGR_Helper.CLI_Atmel">
+ <summary>
+ Creates a batch file and starts background worker which will call the Atmel CLI as a process.
+ </summary>
+</member>
+<member name="M:MFGR_Helper.MFGR_Helper.Atmel_bgw_DoWork(System.Object,System.ComponentModel.DoWorkEventArgs)">
+ <summary>
+ Performs the Atmel process, calling the CLI and using the hex file described in the admin menu.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MFGR_Helper.MFGR_Helper.Atmel_bgw_ProgressChanged(System.Object,System.ComponentModel.ProgressChangedEventArgs)">
+ <summary>
+ Activated from DoWork with ReportProgress method, used to update the visual value of the progressbar.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MFGR_Helper.MFGR_Helper.Atmel_bgw_RunWorkerCompleted(System.Object,System.ComponentModel.RunWorkerCompletedEventArgs)">
+ <summary>
+ When Atmel CLI process finishes, close it and the timer, finish the progress bar to full, call the output updater, and make the helper files readOnly.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MFGR_Helper.MFGR_Helper.UpdateOutputAtmel">
+ <summary>
+ Updates the output textbox with the atmel cli's output data.
+ </summary>
+</member>
+<member name="M:MFGR_Helper.MFGR_Helper.CLI_Psoc">
+ <summary>
+ Calls the Psoc CLI 
+ </summary>
+</member>
+<member name="M:MFGR_Helper.MFGR_Helper.Psoc_bgw_DoWork(System.Object,System.ComponentModel.DoWorkEventArgs)">
+ <summary>
+ Performs the Psoc process, calling the CLI and using the hex file described in the admin menu.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MFGR_Helper.MFGR_Helper.Psoc_bgw_ProgressChanged(System.Object,System.ComponentModel.ProgressChangedEventArgs)">
+ <summary>
+ Activated from DoWork with ReportProgress method, used to update the visual value of the progressbar.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MFGR_Helper.MFGR_Helper.Psoc_bgw_RunWorkerCompleted(System.Object,System.ComponentModel.RunWorkerCompletedEventArgs)">
+ <summary>
+ When Psoc CLI process finishes, close it and the timer, finish the progress bar to full, call the output updater, and make the helper files readOnly.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MFGR_Helper.MFGR_Helper.UpdateOutputPsoc">
+ <summary>
+ Updates the output textbox with the psoc cli's output data.
+ </summary>
+</member>
+<member name="M:MFGR_Helper.MFGR_Helper.PassFailImageHandler(System.Int32)">
+ <summary>
+ Handles any changes to the PassFail image
+ </summary>
+ <param name="color">color is the input as an enum, Pf which can be chosen to be gray(invisible), green, or red</param>
+</member>
+<member name="M:MFGR_Helper.MFGR_Helper.ProgramEnable(System.Boolean)">
+ <summary>
+ Handles turning on or off the program's fields and menus
+ </summary>
+ <param name="enableOn">true if enabling features, false if turning them off</param>
+</member>
+<member name="M:MFGR_Helper.MFGR_Helper.ShowAdminMenu">
+ <summary>
+ Hides the main form and shows the AdminMenu at the loction of the main form.
+ </summary>
+</member>
+<member name="M:MFGR_Helper.MFGR_Helper.TextBoxToggle(System.Windows.Forms.TextBox,System.Boolean)">
+ <summary>
+ Toggles a textbox's ReadOnly parameter whenever its corresponding checkpoint is clicked.
+ </summary>
+ <param name="textbox1"></param>
+ <param name="checked"></param>
+</member>
+<member name="M:MFGR_Helper.MFGR_Helper.OptionsMenuAdmin_Click(System.Object,System.EventArgs)">
+ <summary>
+ Shows Admin Password form
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MFGR_Helper.MFGR_Helper.BtnReloadInit_Click(System.Object,System.EventArgs)">
+ <summary>
+ Calls the LoadAll function to reload everything.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MFGR_Helper.MFGR_Helper.Main_Close(System.Object,System.EventArgs)">
+ <summary>
+ On program close, checks if there was a code scanned that was not used; if that is the case load the previous serial number used back
+ <para>This makes it so a serial code that is unused will not be defaulted and unusable directly even though it was not programmed already.</para>
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:MFGR_Helper.MFGR_Helper.ComCheck">
+ <summary>
+ checks what is in com ports, sets the portname if the scanner is found
+ </summary>
+</member>
+<member name="T:MFGR_Helper.INIReadWrite">
+<summary>
+ Class used to read and write the values in ini files used for initialization.
+ </summary>
+</member>
+<member name="T:MFGR_Helper.CirclePictureBox">
+ <summary>
+ Class used to override the picturebox so that images for it can be circular.
+ </summary>
+</member>
+<member name="M:MFGR_Helper.HexConverter.ShowAdminMenu">
+ <summary>
+ Closes the page, shows Admin Menu.
+ </summary>
+</member>
+<member name="M:MFGR_Helper.HexConverter.BtnReload_Click(System.Object,System.EventArgs)">
+ <summary>
+ Reloads the Hex File.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+</members>
+</doc>

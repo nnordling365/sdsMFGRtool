@@ -1,0 +1,17 @@
+Serial__Number_: 100104
+Date__and__Time: 8/7/2018 4:11:14 PM
+FactoryPassword: RUURUU
+Version__Number: 1.0
+Output__Level__: 10
+Input__GPM_____: 5
+Pump__Mode_____: 255
+Pump__Time_____: 0
+Cell__Delay__1_: 65535
+Forward_On__Sec: 255
+Reverse_On__Sec: 255
+Contrast_______: 60
+Backlight______: 100
+GPM__Override__: 0
+Forward_Off_Sec: 25
+Reverse_Off_Sec: 25
+Deadtime__Sec__: 5

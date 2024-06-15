@@ -1,0 +1,18 @@
+Serial__Number_: 000000
+Date__and__Time: 7/27/2018 1:38:56 PM
+User__Password_: UUDDLRLR
+Version__Number: 1.0
+Output__Level__: 10
+Pump__Mode_____: 1
+Pump__Time_____: 0
+Cell__Delay__1_: 30
+Cell__Delay__2_: 30
+Contrast_______: 60
+Backlight______: 100
+Forward_On__Sec: 120
+Forward_Off_Sec: 25
+Reverse_On__Sec: 120
+Reverse_Off_Sec: 25
+Deadtime__Sec__: 5
+Input__GPM_____: 5
+GPM__Override__: 0

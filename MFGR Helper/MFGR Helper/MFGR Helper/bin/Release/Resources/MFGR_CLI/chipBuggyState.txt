@@ -1,0 +1,3 @@
+Start:
+Failed: Firmware is not fully loaded and device cannot be detected. Please reconnect - "MiniProg3/1740CA000096".
+End:

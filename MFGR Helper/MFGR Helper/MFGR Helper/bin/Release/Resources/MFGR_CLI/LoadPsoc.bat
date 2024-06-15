@@ -1,0 +1,2 @@
+cd Resources\MFGR_CLI
+C_sharp.exe "Y:\Customer Detail\ElectroSea\170055 Clearline Circuit Design\Software and Firmware\Manufacturing\MFGR Helper\MFGR Helper\bin\Release\Resources\MFGR_Files\Clearsquare.hex" > "Y:\Customer Detail\ElectroSea\170055 Clearline Circuit Design\Software and Firmware\Manufacturing\MFGR Helper\MFGR Helper\bin\Release\Resources\MFGR_CLI\psocOutput.txt" 2>&1

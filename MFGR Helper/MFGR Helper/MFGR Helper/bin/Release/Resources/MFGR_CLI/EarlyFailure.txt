@@ -1,0 +1,3 @@
+Start:
+Failed: PSoC device is not acquired! Check connection of the chip to the programmer
+End:

@@ -1,0 +1,28 @@
+Serial__Number_: 000000
+Date__and__Time: 8/1/2018 2:05:03 PM
+User__Password_: UUDDLRLR
+Version__Number: 1.0
+Output__Level__: 10
+Pump__Mode_____: 1
+Pump__Time_____: 0
+Cell__Delay__1_: 30
+Cell__Delay__2_: 30
+Contrast_______: 60
+Backlight______: 100
+Forward_On__Sec: 120
+Forward_Off_Sec: 25
+Reverse_On__Sec: 120
+Reverse_Off_Sec: 25
+Deadtime__Sec__: 5
+Input__GPM_____: 5
+GPM__Override__: 0
+Program Failed!
+[Error Info] A write error occurred:
+-The device may have been turned off during programming or there may be an error in the code file.
+-Make sure connection is not interrupted while underway.
+-Check that the device is on, reset, and try again.
+
+Raw Error data:
+[ERROR] Failed to write segment at 0x0 to target for memorytype. (TCF Error code: 131103)
+Firmware check OK
+Chiperase completed successfully

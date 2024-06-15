@@ -1,0 +1,4 @@
+Firmware check OK
+Chiperase completed successfully
+Programming completed successfully.
+Verification OK

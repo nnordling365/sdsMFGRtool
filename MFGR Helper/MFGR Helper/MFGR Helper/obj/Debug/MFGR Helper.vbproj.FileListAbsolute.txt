@@ -1,0 +1,14 @@
+Y:\Customer Detail\ElectroSea\170055 Clearline Circuit Design\Software and Firmware\Manufacturing\MFGR Helper\MFGR Helper\bin\Debug\MFGR Helper.exe.config
+Y:\Customer Detail\ElectroSea\170055 Clearline Circuit Design\Software and Firmware\Manufacturing\MFGR Helper\MFGR Helper\bin\Debug\MFGR Helper.exe
+Y:\Customer Detail\ElectroSea\170055 Clearline Circuit Design\Software and Firmware\Manufacturing\MFGR Helper\MFGR Helper\bin\Debug\MFGR Helper.pdb
+Y:\Customer Detail\ElectroSea\170055 Clearline Circuit Design\Software and Firmware\Manufacturing\MFGR Helper\MFGR Helper\bin\Debug\MFGR Helper.xml
+Y:\Customer Detail\ElectroSea\170055 Clearline Circuit Design\Software and Firmware\Manufacturing\MFGR Helper\MFGR Helper\obj\Debug\MFGR_Helper.HexConverter.resources
+Y:\Customer Detail\ElectroSea\170055 Clearline Circuit Design\Software and Firmware\Manufacturing\MFGR Helper\MFGR Helper\obj\Debug\MFGR_Helper.Resources.resources
+Y:\Customer Detail\ElectroSea\170055 Clearline Circuit Design\Software and Firmware\Manufacturing\MFGR Helper\MFGR Helper\obj\Debug\MFGR Helper.vbproj.GenerateResource.cache
+Y:\Customer Detail\ElectroSea\170055 Clearline Circuit Design\Software and Firmware\Manufacturing\MFGR Helper\MFGR Helper\obj\Debug\MFGR Helper.vbproj.CoreCompileInputs.cache
+Y:\Customer Detail\ElectroSea\170055 Clearline Circuit Design\Software and Firmware\Manufacturing\MFGR Helper\MFGR Helper\obj\Debug\MFGR Helper.exe
+Y:\Customer Detail\ElectroSea\170055 Clearline Circuit Design\Software and Firmware\Manufacturing\MFGR Helper\MFGR Helper\obj\Debug\MFGR Helper.xml
+Y:\Customer Detail\ElectroSea\170055 Clearline Circuit Design\Software and Firmware\Manufacturing\MFGR Helper\MFGR Helper\obj\Debug\MFGR Helper.pdb
+Y:\Customer Detail\ElectroSea\170055 Clearline Circuit Design\Software and Firmware\Manufacturing\MFGR Helper\MFGR Helper\obj\Debug\MFGR Helper.vbprojAssemblyReference.cache
+Y:\Customer Detail\ElectroSea\170055 Clearline Circuit Design\Software and Firmware\Manufacturing\MFGR Helper\MFGR Helper\obj\Debug\MFGR_Helper.AdminMenu.resources
+Y:\Customer Detail\ElectroSea\170055 Clearline Circuit Design\Software and Firmware\Manufacturing\MFGR Helper\MFGR Helper\obj\Debug\MFGR_Helper.AdminPass.resources

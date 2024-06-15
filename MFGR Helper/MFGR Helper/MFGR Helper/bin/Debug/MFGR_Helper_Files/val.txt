@@ -1,0 +1,14 @@
+#define OUTPUT_LEVEL 10
+#define PUMP_MODE 1
+#define PUMP_TIME 0
+#define CELL_DELAY1 30
+#define CELL_DELAY2 30
+#define CONTRAST 60
+#define BACKLIGHT 100
+#define FORWARD_ON_SEC 120
+#define FORWARD_OFF_SEC 25
+#define REVERSE_ON_SEC 120
+#define REVERSE_OFF_SEC 25
+#define DEADTIME_SEC 5
+#define INPUT_GPM 5
+#define GPM_OVERRIDE 0

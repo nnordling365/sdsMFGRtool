@@ -1,0 +1,8 @@
+[ERROR] An unexpected error occurred when executing.
+Traceback (most recent call last):
+  File "atmel\atprogram.py", line 48, in run
+  File "atmel\avr\cli\commandline.py", line 54, in execute_commands
+  File "atmel\avr\cli\commandexecutor.py", line 53, in execute_commands
+  File "atmel\avr\cli\commands\ChipEraseCommand.py", line 102, in execute
+ValueError: Erase failed. Make sure that you specify the correct arguments for your device.
+Firmware check OK

@@ -1,0 +1,17 @@
+Serial__Number_: 100107
+Date__and__Time: 8/7/2018 3:49:39 PM
+FactoryPassword: RUURUL
+Version__Number: 1.0
+Output__Level__: 10
+Pump__Mode_____: 5
+Pump__Time_____: 1
+Cell__Delay__1_: 0
+Contrast_______: 30
+Backlight______: 120
+Forward_On__Sec: 120
+Forward_Off_Sec: 60
+Reverse_On__Sec: 100
+Reverse_Off_Sec: 0
+Deadtime__Sec__: 25
+Input__GPM_____: 25
+GPM__Override__: 5
