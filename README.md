@@ -1,1 +1,1 @@
-This code automatically encoded parameters onto an ATMEL using a PSOC.
+This code automatically encoded parameters onto an Atmel PSoC.
